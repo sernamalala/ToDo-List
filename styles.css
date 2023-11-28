@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.todo-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:3px solid #98E4FF;
+    height: 500px;
+    border-radius: 60px;
+    width: 450px;
+    background-color: #04364A;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+
+.text-box{
+    text-align: center;
+    margin-top: 50px;
+    height: 40px;
+    width: 200px;
+    border: 3px solid #CDFAD5 ;
+    border-radius: 10px;
+    outline: none;
+}
+.text-box:active, .text-box:hover{
+    margin-top: 50px;
+    height: 80px;
+    width: 250px;
+    border: 3px solid #CDFAD5 ;
+}
+#add-button{
+    margin-left: 15px;
+    height: 40px;
+    width: 100px;
+    background-color:  #CDFAD5 ;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#add-button:hover{
+    cursor: pointer;
+    box-shadow: none;
+}
+.input-elements{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 70px;
+}
+#message-user{
+    color: red;
+    text-align: center;
+}
+.task-heading{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+.tasks-saved #input{
+    width: 100%;
+    height: 50px;
+}
+.output-elements{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.output-1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.tasks-saved{
+    display: flex;
+}
+#tasks-saved{
+    
+background-color: white;
+border: 1px solid #98E4FF;
+height: 40px;
+width: 70%;
+margin: 0;
+margin-bottom: 30px;
+margin-right: 20px;
+}
+.icon{
+    margin: 10px;
+}
+#tasks-saved {
+    border-radius: 20
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+
+@media(max-width:500){
+
+    .todo-container{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+}
